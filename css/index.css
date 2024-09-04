@@ -1,0 +1,155 @@
+/* Estilos Gerais */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f0f2f5; /* Fundo consistente */
+  text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Header */
+header {
+  background-color: #d32f2f; /* Vermelho vibrante */
+  color: #fff;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+header .logo img {
+  width: 80px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+header nav ul li a:hover {
+  background-color: #b71c1c; /* Tom mais escuro de vermelho */
+}
+
+/* Seção de Boas-Vindas */
+.secao-boas-vindas {
+  background-color: #d32f2f; /* Consistente com o cabeçalho */
+  color: #fff;
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.container-boas-vindas {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+.secao-boas-vindas .avatar img {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.botoes-cta .btn {
+  display: inline-block;
+  margin: 8px;
+  padding: 8px 20px;
+  background-color: #444;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.botoes-cta .btn:hover {
+  background-color: #222;
+}
+
+/* Seção Sobre Mim */
+.secao-sobre-mim {
+  padding: 50px 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.secao-sobre-mim h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #d32f2f; /* Consistência com a seção de boas-vindas */
+}
+
+.secao-sobre-mim p {
+  margin-bottom: 20px;
+  text-align: justify;
+  color: #555;
+  font-size: 18px;
+}
+
+.imagens-sobre {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.imagens-sobre img {
+  width: 220px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #d32f2f; /* Vermelho vibrante */
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer .links-sociais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .links-sociais img {
+  width: 24px;
+  margin: 0 10px;
+  transition: opacity 0.3s ease;
+}
+
+footer .links-sociais img:hover {
+  opacity: 0.7;
+}
+
+footer p {
+  margin: 10px 0 0;
+  font-size: 14px;
+}

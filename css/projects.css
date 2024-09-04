@@ -1,0 +1,115 @@
+/* Estilos Gerais */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f0f2f5;
+  text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Header */
+header {
+  background-color: #d32f2f; /* Vermelho vibrante */
+  color: #fff;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  background-color: #b71c1c; /* Tom mais escuro de vermelho */
+  color: #fff;
+}
+
+/* Main */
+main {
+  padding: 80px 20px 20px; /* Espaço para o cabeçalho fixo */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Projetos */
+.projeto {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px; /* Limita a largura das caixas */
+}
+
+.projeto h2 {
+  margin-top: 0;
+  font-size: 1.4em;
+}
+
+.projeto h2 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.projeto h2 a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #d32f2f;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  bottom: 0;
+}
+
+footer .links-sociais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .links-sociais a {
+  margin: 0 10px;
+}
+
+footer .links-sociais img {
+  width: 24px;
+  height: 24px;
+  transition: opacity 0.3s ease;
+}
+
+footer .links-sociais img:hover {
+  opacity: 0.7;
+}
+
+footer p {
+  margin: 10px 0 0;
+  font-size: 14px;
+}
