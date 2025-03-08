@@ -6,16 +6,16 @@ body {
   color: #333;
   line-height: 1.6;
   background-color: #f0f2f5;
-  text-align: center; /* Centraliza o conteúdo */
+  text-align: center;
 }
 
 /* Header */
 header {
-  background-color: #d32f2f; /* Vermelho vibrante */
+  background-color: #d32f2f;
   color: #fff;
   padding: 15px 0;
   display: flex;
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  justify-content: center;
   align-items: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -40,13 +40,13 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background-color: #b71c1c; /* Tom mais escuro de vermelho */
+  background-color: #b71c1c;
   color: #fff;
 }
 
 /* Main */
 main {
-  padding: 80px 20px 20px; /* Espaço para o cabeçalho fixo */
+  padding: 80px 20px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,7 +61,7 @@ main {
   padding: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 600px; /* Limita a largura das caixas */
+  max-width: 600px;
 }
 
 .projeto h2 {
@@ -112,4 +112,20 @@ footer .links-sociais img:hover {
 footer p {
   margin: 10px 0 0;
   font-size: 14px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav ul li {
+    margin: 10px 0;
+  }
+
+  .projeto {
+    width: 90%;
+  }
 }
